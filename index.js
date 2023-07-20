@@ -99,7 +99,7 @@ const addDepartment = () => {
         department_name: res.dept_name,
       }, (err, res) => {
         if (err) throw err;
-        console.log("New department has been successfully added!");
+        console.log("New department has been added!");
         startApp();
       });
     });
@@ -132,7 +132,7 @@ const addRole = () => {
         department_id: res.dept_id,
       }, (err, res) => {
         if (err) throw err;
-        console.log("New role has been successfully added!");
+        console.log("New role has been added!");
         startApp();
       });
     });
@@ -171,7 +171,7 @@ const addEmployee = () => {
         manager_id: res.emp_manager_id || null, 
       }, (err, res) => {
         if (err) throw err;
-        console.log("New employee has been successfully added!");
+        console.log("New employee has been added!");
         startApp();
       });
     });
@@ -202,7 +202,7 @@ const updateRole = () => {
         },
       ], (err, res) => {
         if (err) throw err;
-        console.log("Employee role has been successfully updated!");
+        console.log("Employee role has been updated!");
         startApp();
       });
     });
